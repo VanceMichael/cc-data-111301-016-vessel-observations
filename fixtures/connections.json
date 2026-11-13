@@ -1,0 +1,12 @@
+[
+  {
+    "file": "station-a.nmea",
+    "station": "shore-a",
+    "connection": 1
+  },
+  {
+    "file": "station-b.nmea",
+    "station": "shore-b",
+    "connection": 1
+  }
+]
