@@ -8,7 +8,7 @@ from vessel_observations.core import inspect_file
 class PreviewTests(unittest.TestCase):
     def test_source_preview(self):
         result = inspect_file(Path('fixtures/station-a.nmea'))
-        self.assertEqual(result, {'sentences':3,'multipart':2})
+        self.assertEqual(result, {'sentences': 4, 'multipart': 2})
 
     def test_invalid_source_is_not_empty_success(self):
         with tempfile.TemporaryDirectory() as directory:

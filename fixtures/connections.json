@@ -8,5 +8,10 @@
     "file": "station-b.nmea",
     "station": "shore-b",
     "connection": 1
+  },
+  {
+    "file": "station-c.nmea",
+    "station": "shore-a",
+    "connection": 2
   }
 ]
